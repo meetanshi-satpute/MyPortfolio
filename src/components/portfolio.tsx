@@ -7,7 +7,7 @@ const projects = [
     title: "Orlay: Food Delivery at DineIn",
     description:
       "Order food directly from your table with real-time tracking and seamless checkout.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500",
+    image: "/images/Orlay_wallpaper.jpeg",
     screenshots: [
       "/images/screensort1.jpeg",
       "/images/screensort2.jpeg",
@@ -25,7 +25,7 @@ const projects = [
     title: "Orlay Business Partner",
     description:
       "Manage menus, orders, and analytics to streamline restaurant operations.",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
+    image: "/images/Business_wallpaper.jpeg",
     screenshots: [
       "/images/Bscreensort1.jpeg",
       "/images/Bscreensort2.jpeg",
@@ -48,7 +48,7 @@ const projects = [
     title: "Orlay Delivery Partner",
     description:
       "Accept deliveries, navigate routes, and track earnings in real time.",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
+    image: "/images/Delivery_wallpaper.jpeg",
     screenshots: [
       "/images/Dscreensort1.jpeg",
       "/images/Dscreensort2.jpeg",
@@ -72,7 +72,7 @@ const projects = [
     title: "Orlay Admin Panel App",
     description:
       "Control users, partners, and platform analytics from a unified dashboard.",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
+    image: "/images/Admin_wallpaper.jpeg",
     screenshots: [
       "/images/Ascreensort1.jpeg",
       "/images/Ascreensort2.jpeg",
@@ -88,7 +88,7 @@ const projects = [
     title: "Cricket Wicket",
     description:
       "Track live scores, manage teams, and schedule matches with an intuitive mobile experience.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500",
+    image: "/images/cricket_wallpaper.png",
     screenshots: [
       "/images/Cscreensort1.jpeg",
       "/images/Cscreensort2.jpeg",
@@ -106,7 +106,7 @@ const projects = [
   },
 ];
 
-const Portfolio = ({ selectedProject, setSelectedProject }:any) => {
+const Portfolio = ({ selectedProject, setSelectedProject }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -123,7 +123,7 @@ const Portfolio = ({ selectedProject, setSelectedProject }:any) => {
     );
   };
 
-  const openProject = (project:any) => {
+  const openProject = (project: any) => {
     setSelectedProject(project);
     setCurrentIndex(0);
   };
