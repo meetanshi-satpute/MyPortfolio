@@ -457,8 +457,8 @@ const App: React.FC = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/Meetanshi_satpute_Resume.pdf";
-    link.download = "Meetanshi_satpute_Resume.pdf";
+    link.href = "/Meetanshi_Satpute_React_Native_Developer.pdf";
+    link.download = "Meetanshi_Satpute_React_Native_Developer.pdf";
     link.click();
   };
 

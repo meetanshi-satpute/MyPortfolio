@@ -19,7 +19,7 @@ const About = () => {
               <div className="about-card">
                 <FaBriefcase className="about-icon" />
                 <h4>Experience</h4>
-                <p>2 Years</p>
+                <p>2+ Years</p>
                 <span>Mobile Development</span>
               </div>
 
